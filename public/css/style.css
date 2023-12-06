@@ -1,0 +1,14 @@
+/* Utilities */
+@import "/css/utilities/global.css";
+@import "/css/utilities/cores.css";
+@import "/css/utilities/typography.css";
+@import "/css/utilities/animation.css";
+
+/* Content*/
+@import "/css/content/header.css";
+@import "/css/content/home.css";
+@import "/css/content/about.css";
+@import "/css/content/gallery.css";
+@import "/css/content/testimonials.css";
+@import "/css/content/contact.css";
+@import "/css/content/footer.css";

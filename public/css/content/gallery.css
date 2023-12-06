@@ -1,0 +1,232 @@
+.gallery-bg {
+  padding: 120px 0;
+}
+
+.gallery h1 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.gallery-menu {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 0 20px;
+  gap: 40px;
+  margin-bottom: 40px;
+}
+
+.gallery-menu li {
+  position: relative;
+  cursor: pointer;
+}
+
+.gallery-menu li:hover::after,
+.gallery-menu li.active-nav::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: var(--cor-c11);
+  position: absolute;
+}
+
+.all img,
+.modeling img,
+.food img,
+.views img,
+.portrait img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.all,
+.modeling,
+.food,
+.views,
+.portrait {
+  display: none;
+  padding: 0 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+  grid-template-areas:
+    "all-1 all-2 all-3"
+    "all-4 all-2 all-5"
+    "all-4 all-6 all-5"
+    "all-7 all-8 all-9"
+    "all-10 all-8 all-11"
+    "all-10 all-12 all-11"
+    "all-13 all-14 all-15"
+    "all-16 all-14 all-17"
+    "all-16 all-18 all-17";
+}
+
+.all.active,
+.modeling.active,
+.food.active,
+.views.active,
+.portrait.active {
+  display: grid;
+}
+
+[data-gallery] div {
+  animation: show 0.5s forwards;
+}
+
+@keyframes show {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -40px, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+.all-1 {
+  grid-area: all-1;
+}
+
+.all-2 {
+  grid-area: all-2;
+}
+
+.all-3 {
+  grid-area: all-3;
+}
+
+.all-4 {
+  grid-area: all-4;
+}
+
+.all-5 {
+  grid-area: all-5;
+}
+
+.all-6 {
+  grid-area: all-6;
+}
+.all-7 {
+  grid-area: all-7;
+}
+.all-8 {
+  grid-area: all-8;
+}
+.all-9 {
+  grid-area: all-9;
+}
+.all-10 {
+  grid-area: all-10;
+}
+.all-11 {
+  grid-area: all-11;
+}
+.all-12 {
+  grid-area: all-12;
+}
+.all-13 {
+  grid-area: all-13;
+}
+.all-14 {
+  grid-area: all-14;
+}
+.all-15 {
+  grid-area: all-15;
+}
+.all-16 {
+  grid-area: all-16;
+}
+.all-17 {
+  grid-area: all-17;
+}
+
+@media (max-width: 750px) {
+  .gallery-bg {
+    padding: 80px 0;
+  }
+
+  .gallery h1 {
+    margin-bottom: 24px;
+  }
+
+  .all,
+  .modeling,
+  .food,
+  .views,
+  .portrait {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+      "all-1 all-2"
+      "all-4 all-2"
+      "all-4 all-3"
+      "all-6 all-5"
+      "all-8 all-5"
+      "all-8 all-7"
+      "all-9 all-10"
+      "all-11 all-10"
+      "all-11 all-12"
+      "all-13 all-14"
+      "all-16 all-14"
+      "all-16 all-15"
+      ". all-17"
+      "all-18 .";
+  }
+
+  .gallery-menu {
+    gap: 36px;
+    margin-bottom: 36px;
+  }
+
+  [data-gallery] div {
+    animation: showRight 0.3s forwards;
+  }
+
+  @keyframes showRight {
+    from {
+      opacity: 0;
+      transform: translate3d(-30px, 0, 0);
+    }
+
+    to {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+    }
+  }
+}
+
+@media (max-width: 520px) {
+  .all,
+  .modeling,
+  .food,
+  .views,
+  .portrait {
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "all-1"
+      "all-2"
+      "all-3"
+      "all-4"
+      "all-5"
+      "all-6"
+      "all-7"
+      "all-8"
+      "all-9"
+      "all-10"
+      "all-11"
+      "all-12"
+      "all-13"
+      "all-14"
+      "all-15"
+      "all-16"
+      "all-17"
+      "all-18";
+  }
+
+  .gallery-menu {
+    gap: 24px;
+    margin-bottom: 32px;
+  }
+}
