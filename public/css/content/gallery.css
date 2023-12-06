@@ -52,14 +52,11 @@
   gap: 20px;
   grid-template-areas:
     "all-1 all-2 all-3"
-    "all-4 all-2 all-5"
-    "all-4 all-6 all-5"
+    "all-4 all-5 all-6"
     "all-7 all-8 all-9"
-    "all-10 all-8 all-11"
-    "all-10 all-12 all-11"
+    "all-10 all-11 all-12"
     "all-13 all-14 all-15"
-    "all-16 all-14 all-17"
-    "all-16 all-18 all-17";
+    "all-16 all-17 all-18";
 }
 
 .all.active,
@@ -160,19 +157,14 @@
     grid-template-columns: 1fr 1fr;
     grid-template-areas:
       "all-1 all-2"
-      "all-4 all-2"
-      "all-4 all-3"
-      "all-6 all-5"
-      "all-8 all-5"
-      "all-8 all-7"
+      "all-3 all-4"
+      "all-5 all-6"
+      "all-7 all-8"
       "all-9 all-10"
-      "all-11 all-10"
       "all-11 all-12"
       "all-13 all-14"
-      "all-16 all-14"
-      "all-16 all-15"
-      ". all-17"
-      "all-18 .";
+      "all-15 all-16"
+      "all-17 all-18";
   }
 
   .gallery-menu {

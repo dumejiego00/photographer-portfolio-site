@@ -3,6 +3,7 @@
 @import "/css/utilities/cores.css";
 @import "/css/utilities/typography.css";
 @import "/css/utilities/animation.css";
+@import "/css/utilities/lightbox.min.css";
 
 /* Content*/
 @import "/css/content/header.css";
