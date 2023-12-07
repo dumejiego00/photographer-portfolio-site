@@ -9,6 +9,41 @@
   height:100vh;
   max-width:100vw;
   margin-bottom: 120px;
+  animation-delay: 30s;
+  animation: animate 100s ease-in-out infinite;
+}
+
+@keyframes animate{
+  0%,100%{
+      background-image: url("../../imgs/main/cofi.jpg");
+  }
+  10%{
+      background-image: url("../../imgs/main/231118_2.jpg");
+  }
+  20%{
+      background-image: url("../../imgs/main/231118_11.jpg");
+  }
+  30%{
+      background-image: url("../../imgs/main/231118_15.jpg");
+  }
+  40%{
+      background-image: url("../../imgs/main/231118_16.jpg");
+  }
+  50%{
+      background-image: url("../../imgs/main/231118_23.jpg");
+  }
+  60%{
+      background-image: url("../../imgs/main/231118_27.jpg");
+  }
+  70%{
+      background-image: url("../../imgs/main/231118_40.jpg");
+  }
+  80%{
+      background-image: url("../../imgs/main/231118_63.jpg");
+  }
+  90%{
+      background-image: url("../../imgs/main/231118_30.jpg");
+  }
 }
 
 .name_tag {
