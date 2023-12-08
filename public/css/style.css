@@ -1,16 +1,15 @@
 /* Utilities */
-@import "/css/utilities/global.css";
-@import "/css/utilities/cores.css";
-@import "/css/utilities/typography.css";
-@import "/css/utilities/animation.css";
-@import "/css/utilities/lightbox.min.css";
+@import "./utilities/global.css";
+@import "./utilities/cores.css";
+@import "./utilities/typography.css";
+@import "./utilities/animation.css";
+@import "./utilities/lightbox.min.css";
 
 /* Content*/
-@import "/css/content/header.css";
-@import "/css/content/home.css";
-@import "/css/content/about.css";
-@import "/css/content/gallery.css";
-@import "/css/content/testimonials.css";
-@import "/css/content/contact.css";
-@import "/css/content/footer.css";
+@import "./content/header.css";
+@import "./content/home.css";
+@import "./content/about.css";
+@import "./content/gallery.css";
+@import "./content/contact.css";
+@import "./content/footer.css";
 

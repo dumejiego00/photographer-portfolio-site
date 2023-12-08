@@ -1,26 +1,33 @@
 .contact-bg {
-  background: url("/imgs/general/paisagem-2.jpg");
+  padding-top: 30px;
+  background-color: #FBF9FA;
+  /* background-color: var(--cor-c12); */
+  background: url("../../imgs/general/231118_7.jpg");
   background-position: center;
   background-size: cover;
   box-shadow: inset 0 80px var(--cor-c12), inset 0 -80px var(--cor-c12);
 }
 
 .contact {
-  padding: 0 20px;
   display: flex;
   justify-content: space-between;
 }
 
 .contact h1 {
-  padding-top: 120px;
+  /* padding-top: 30px; */
   align-self: flex-end;
-  padding-bottom: 160px;
+  padding-bottom: 0px;
+}
+
+.contact_title {
+  display: flex;
+  justify-content: center;
 }
 
 .form-contact {
   gap: 20px;
   background: var(--cor-w);
-  padding: 80px 40px;
+  padding: 50px 50px;
   width: 575px;
   box-sizing: border-box;
 }
@@ -57,13 +64,9 @@
   margin-bottom: 20px;
 }
 
-.form-contact h3 {
-  margin-bottom: 36px;
-}
-
-.form-contact li + li {
+/* .form-contact li + li {
   margin-top: 20px;
-}
+} */
 
 .location-black,
 .email-black,
@@ -104,6 +107,22 @@
   left: -23px;
 }
 
+
+
+.icons {
+  display: flex;
+  justify-content: center;
+}
+
+
+
+
+
+#submission_button {
+  display: flex;
+  justify-content: center;
+}
+
 .buttom-2 {
   padding: 16px 32px;
   background-color: var(--cor-c15);
@@ -135,19 +154,6 @@
   .form-contact {
     width: 100%;
   }
-
-  .form {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-  }
-
-  .message-input {
-    grid-column: 1 / -1;
-  }
-
-  .button {
-    grid-column: 1;
-  }
 }
 
 @media (max-width: 750px) {
@@ -160,11 +166,20 @@
   }
 
   .form-contact ul {
-    display: none;
+    padding-top: 10px;
   }
 
   .buttom-2 {
     margin-bottom: 0px;
+  }
+
+  #submission_button {
+    display: flex;
+    justify-content: center;
+  }
+
+  .icons{
+    margin-top:20px;
   }
 }
 

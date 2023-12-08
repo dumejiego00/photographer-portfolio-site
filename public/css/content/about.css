@@ -1,5 +1,6 @@
 .about-bg {
     background-color: var(--cor-c12);
+    padding: 0 20px 0 20px;
 }
 
 .about {
@@ -76,6 +77,10 @@
     .content p {
         margin-bottom: 48px;
         max-width: 75ch;
+    }
+
+    .about-bg{
+        padding-bottom:30px;
     }
 }
 
