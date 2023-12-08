@@ -35,7 +35,7 @@
     width: 100%;
     top: 109px;
     right: 0;
-    background-color: var(--cor-c13);
+    /* background-color: var(--cor-c13); */
     height: 0px;
     transition: 0.6s;
     z-index: 1000;
@@ -55,7 +55,7 @@
   }
 
   .header-menu a:hover {
-    background-color: var(--cor-c10);
+    background-color: #6969698e;
     color: var(--cor-w);
   }
 
