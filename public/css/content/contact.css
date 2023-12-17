@@ -87,21 +87,21 @@
 }
 
 .location-black::before {
-  background-image: url("/icons/location-black.svg");
+  background-image: url("public/icons/location-black.svg");
   width: 24px;
   height: 24px;
   left: -25px;
 }
 
 .email-black::before {
-  background-image: url("/icons/message-black.svg");
+  background-image: url("public/icons/message-black.svg");
   width: 24px;
   height: 17px;
   left: -25px;
 }
 
 .phone-black::before {
-  background-image: url("/icons/phone-black.svg");
+  background-image: url("public/icons/phone-black.svg");
   width: 18px;
   height: 20px;
   left: -23px;
