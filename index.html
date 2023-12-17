@@ -673,7 +673,8 @@
       <div class="contact container">
         <h1 class="font-1-xxl cor-w">Contact</h1>
         <div class="form-contact">
-          <form class="form" name="contact" method="POST" netlify>
+          <form class="form" name="contact" method="POST" data-netlify-honeypot="bot-field" netlify>
+            <input name="bot-field" type="hidden">
             <div>
               <label class="font-2-s cor-c11" for="nome">Name</label>
               <input
