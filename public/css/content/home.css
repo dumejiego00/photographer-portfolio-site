@@ -115,7 +115,7 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 100vh;
+    height: 100%;
     width: 100%;
     margin-bottom: 0;
     animation-name: animate;
