@@ -9,6 +9,10 @@
   grid-template-columns: 1fr 1fr;
 }
 
+#about_photo{
+  filter:drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.2));
+}
+
 .new-container {
   max-width: 1600px;
   margin: 0 auto;
