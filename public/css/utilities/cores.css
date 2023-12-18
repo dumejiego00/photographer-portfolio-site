@@ -15,10 +15,11 @@
     --cor-c13: #0B0B0B;
     --cor-c14: #090909;
     --cor-c15: #000000; 
-    --cor-text:#2F3126;
-    --cor-back:#F6F7F2;
-    --cor-button:#86a8aa;
-    --cor-text2:#46483c;
+    --cor-text:#E4E3DD;
+    --cor-back:#3C4041;
+    --cor-button:#1A1A1A;
+    --cor-text2:#F0F1ED;
+    --cor-contactText:var(--cor-back)
 }
 
 .cor-text{
@@ -26,6 +27,9 @@
 }
 .cor-text2{
     color:var(--cor-text2);
+}
+.cor-contactText{
+    color:var(--cor-contactText)
 }
 
 .cor-w {

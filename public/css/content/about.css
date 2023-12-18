@@ -1,6 +1,6 @@
 .about-bg {
   /* background-color: var(--cor-c12); */
-  background-color: #FFFFFF;
+  background-color: var(--cor-back);
   padding: 120px 20px 0 20px;
 }
 

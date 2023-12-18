@@ -142,7 +142,7 @@
   }
 
   .contact_text {
-    color: white;
+    color: var(--cor-text);
   }
 
   .contact h1 {
