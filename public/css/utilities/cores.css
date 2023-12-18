@@ -15,6 +15,17 @@
     --cor-c13: #0B0B0B;
     --cor-c14: #090909;
     --cor-c15: #000000; 
+    --cor-text:#2F3126;
+    --cor-back:#F6F7F2;
+    --cor-button:#86a8aa;
+    --cor-text2:#46483c;
+}
+
+.cor-text{
+    color:var(--cor-text);
+}
+.cor-text2{
+    color:var(--cor-text2);
 }
 
 .cor-w {

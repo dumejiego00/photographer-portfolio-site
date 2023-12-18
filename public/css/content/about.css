@@ -1,6 +1,7 @@
 .about-bg {
   /* background-color: var(--cor-c12); */
-  padding: 30px 20px 0 20px;
+  background-color: #FFFFFF;
+  padding: 120px 20px 0 20px;
 }
 
 .about {
@@ -64,7 +65,7 @@
 
   .content {
     order: 0;
-    padding: 40px 20px;
+    padding: 0px 20px;
   }
 
   .content h1 {
