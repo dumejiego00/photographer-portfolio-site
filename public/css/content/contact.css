@@ -1,7 +1,7 @@
 .contact-bg {
-  padding-top: 30px;
-  background-color: #fbf9fa;
-  /* background-color: var(--cor-c12); */
+  padding: 30px 50px 0px 50px;
+  /* background-color: #fbf9fa;
+  background-color: var(--cor-c12); */
   background: url("/public/imgs/general/231118_7.jpg");
   background-position: center;
   background-size: cover;
@@ -136,18 +136,19 @@
   .contact-bg {
     background-color: var(--cor-c11);
     box-shadow: inset 0 -80px var(--cor-c12);
+    padding: 30px 40px 0px 40px;
   }
   .contact {
     flex-direction: column;
   }
 
   .contact_text {
-    color: var(--cor-text);
+    color: var(--cor-w);
   }
 
   .contact h1 {
     align-self: center;
-    padding: 80px 0 60px 0;
+    padding: 20px 0 60px 0;
   }
 
   .form-contact {
@@ -156,12 +157,16 @@
 }
 
 @media (max-width: 750px) {
+  .contact-bg{
+    padding: 30px 30px 0px 30px;
+  }
+
   .form {
     grid-template-columns: 1fr;
   }
 
   .contact h1 {
-    padding: 60px 0 40px 0;
+    padding: 0px 0 40px 0;
   }
 
   .form-contact ul {

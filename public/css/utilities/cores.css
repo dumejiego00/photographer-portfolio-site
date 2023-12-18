@@ -15,11 +15,11 @@
     --cor-c13: #0B0B0B;
     --cor-c14: #090909;
     --cor-c15: #000000; 
-    --cor-text:#E4E3DD;
-    --cor-back:#3C4041;
-    --cor-button:#1A1A1A;
-    --cor-text2:#F0F1ED;
-    --cor-contactText:var(--cor-back)
+    --cor-text:#353535;
+    --cor-back:var(--cor-w);
+    --cor-button:var(--cor-text);
+    --cor-text2:var(--cor-text);
+    --cor-contactText:var(--cor-text)
 }
 
 .cor-text{
