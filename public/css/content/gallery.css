@@ -1,5 +1,5 @@
 .gallery-bg {
-  padding: 120px 0 120px 0;
+  padding: 30px 0 140px 0;
 }
 
 .gallery h1 {
@@ -142,7 +142,7 @@
 
 @media (max-width: 750px) {
   .gallery-bg {
-    padding: 80px 0;
+    padding: 80px 0px 120px 0px;
   }
 
   .gallery h1 {

@@ -42,29 +42,6 @@
   position: absolute;
 }
 
-.location::before {
-  background-image: url("/icons/location-white.svg");
-  width: 24px;
-  height: 24px;
-  top: 0;
-  left: -30px;
-}
-
-.email::before {
-  background-image: url("/icons/message-white.svg");
-  left: -30px;
-  width: 24px;
-  height: 17px;
-}
-
-.phone::before {
-  background-image: url("/icons/phone-white.svg");
-  width: 18px;
-  height: 20px;
-  left: -28px;
-  top: 0;
-}
-
 .innerLinks h2 {
   margin-bottom: 40px;
 }
