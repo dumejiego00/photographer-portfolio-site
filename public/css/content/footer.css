@@ -87,7 +87,7 @@
   display: flex;
   justify-content: center;
   padding: 0 20px;
-  color: var(--cor-c5);
+  color: var(--cor-text);
 }
 
 @media (max-width: 990px) {
