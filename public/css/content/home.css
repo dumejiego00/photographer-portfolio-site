@@ -111,7 +111,7 @@ body {
 
 @media (max-width: 1050px) {
   .bg_photo {
-    background-image: url("/public/imgs/main/231118_18.jpg");
+    background-image: url("/public/imgs/main/231118_18.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -129,34 +129,34 @@ body {
   @keyframes animate {
     0%,
     100% {
-      background-image: url("/public/imgs/main/231118_18.jpg");
+      background-image: url("/public/imgs/main/231118_18.webp");
     }
     10% {
-      background-image: url("/public/imgs/main/231118_13.jpg");
+      background-image: url("/public/imgs/main/231118_13.webp");
     }
     20% {
-      background-image: url("/public/imgs/main/231118_44.jpg");
+      background-image: url("/public/imgs/main/231118_44.webp");
     }
     30% {
-      background-image: url("/public/imgs/main/231118_45.jpg");
+      background-image: url("/public/imgs/main/231118_45.webp");
     }
     40% {
-      background-image: url("/public/imgs/main/231118_55.jpg");
+      background-image: url("/public/imgs/main/231118_55.webp");
     }
     50% {
-      background-image: url("/public/imgs/main/231118_29.jpg");
+      background-image: url("/public/imgs/main/231118_29.webp");
     }
     60% {
-      background-image: url("/public/imgs/main/231118_98.jpg");
+      background-image: url("/public/imgs/main/231118_98.webp");
     }
     70% {
-      background-image: url("/public/imgs/main/231118_81.jpg");
+      background-image: url("/public/imgs/main/231118_81.webp");
     }
     80% {
-      background-image: url("/public/imgs/main/231118_85.jpg");
+      background-image: url("/public/imgs/main/231118_85.webp");
     }
     90% {
-      background-image: url("/public/imgs/main/231118_106.jpg");
+      background-image: url("/public/imgs/main/231118_106.webp");
     }
   }
 }
