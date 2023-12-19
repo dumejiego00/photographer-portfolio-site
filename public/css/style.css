@@ -13,7 +13,3 @@
 @import "/public/css/content/contact.css";
 @import "/public/css/content/footer.css";
 @import "/public/css/content/confirm.css";
-
-body{
-    background-color: var(--cor-back);
-}
