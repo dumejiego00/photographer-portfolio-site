@@ -9,6 +9,6 @@ export default function menuHamburger() {
     nav.classList.toggle(btnMobile.dataset.btn);
   }
 
-  btnMobile.addEventListener("click", toggleMenu, {passive: true});
-  btnMobile.addEventListener("touchstart", toggleMenu, {passive: true});
+  btnMobile.addEventListener("click", toggleMenu);
+  btnMobile.addEventListener("touchstart", toggleMenu, { passive: true });
 }
