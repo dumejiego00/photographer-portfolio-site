@@ -10,5 +10,5 @@ export default function menuHamburger() {
   }
 
   btnMobile.addEventListener("click", toggleMenu);
-  btnMobile.addEventListener("touchstart", toggleMenu, { passive: true });
+  btnMobile.addEventListener("touchstart", toggleMenu);
 }
