@@ -14,7 +14,6 @@
 }
 
 .contact h1 {
-  /* padding-top: 30px; */
   align-self: flex-end;
   padding-bottom: 0px;
 }
@@ -119,7 +118,6 @@
 
 .buttom-2 {
   padding: 16px 32px;
-  /* background-color: var(--cor-c15); */
   background-color: var(--cor-button);
   border-radius: 16px;
   max-width: max-content;
