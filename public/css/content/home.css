@@ -195,6 +195,9 @@ body {
   .font-1-s {
     font: 400 0.75rem/1.5 "Roboto Serif", serif;
   }
+  .font-1-s-2 {
+    font: 400 0.75rem/1 "Roboto Serif", serif;
+  }
 
   .home p {
     max-width: 40ch;
