@@ -63,10 +63,6 @@
   margin-bottom: 20px;
 }
 
-/* .form-contact li + li {
-  margin-top: 20px;
-} */
-
 .location-black,
 .email-black,
 .phone-black {
@@ -104,11 +100,6 @@
   width: 18px;
   height: 20px;
   left: -23px;
-}
-
-.icons {
-  display: flex;
-  justify-content: center;
 }
 
 #submission_button {
@@ -178,10 +169,6 @@
   #submission_button {
     display: flex;
     justify-content: center;
-  }
-
-  .icons {
-    margin-top: 20px;
   }
 }
 

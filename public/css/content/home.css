@@ -15,9 +15,8 @@ body {
   width: 100%;
   margin-bottom: 120px;
   animation-name: animate;
-  animation-duration: 45s;
+  animation-duration: 30s;
   animation-delay: 1s;
-  animation-timing-function: ease-in;
   animation-iteration-count: infinite;
 }
 
@@ -26,31 +25,25 @@ body {
   100% {
     background-image: url("/public/imgs/main/231118_2.jpg");
   }
-  10% {
+  12.5% {
     background-image: url("/public/imgs/main/cofi.jpg");
   }
-  20% {
-    background-image: url("/public/imgs/main/231118_11.jpg");
-  }
-  30% {
+  25% {
     background-image: url("/public/imgs/main/231118_25.jpg");
   }
-  40% {
-    background-image: url("/public/imgs/main/231118_16.jpg");
-  }
-  50% {
+  37.5% {
     background-image: url("/public/imgs/main/231118_23.jpg");
   }
-  60% {
+  50% {
     background-image: url("/public/imgs/main/231118_27.jpg");
   }
-  70% {
+  62.5% {
     background-image: url("/public/imgs/main/231118_40.jpg");
   }
-  80% {
+  75% {
     background-image: url("/public/imgs/main/231118_63.jpg");
   }
-  90% {
+  87.5% {
     background-image: url("/public/imgs/main/231118_30.jpg");
   }
 }
@@ -111,7 +104,7 @@ body {
 
 @media (max-width: 1050px) {
   .bg_photo {
-    background-image: url("/public/imgs/main/231118_18.jpg");
+    background-image: url("/public/imgs/main/231118_13.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -120,42 +113,38 @@ body {
     margin-bottom: 0;
     animation-name: none;
     animation-name: animate;
-    animation-duration: 45s;
+    animation-duration: 30s;
     animation-delay: 1s;
-    animation-timing-function: ease-in;
     animation-iteration-count: infinite;
   }
 
   @keyframes animate {
     0%,
     100% {
-      background-image: url("/public/imgs/main/231118_18.jpg");
-    }
-    10% {
       background-image: url("/public/imgs/main/231118_13.jpg");
     }
-    20% {
+    11.11% {
       background-image: url("/public/imgs/main/231118_44.jpg");
     }
-    30% {
+    22.22% {
       background-image: url("/public/imgs/main/231118_45.jpg");
     }
-    40% {
+    33.33% {
       background-image: url("/public/imgs/main/231118_55.jpg");
     }
-    50% {
+    44.44% {
       background-image: url("/public/imgs/main/231118_29.jpg");
     }
-    60% {
+    55.55% {
       background-image: url("/public/imgs/main/231118_98.jpg");
     }
-    70% {
+    66.66% {
       background-image: url("/public/imgs/main/231118_81.jpg");
     }
-    80% {
+    77.77% {
       background-image: url("/public/imgs/main/231118_85.jpg");
     }
-    90% {
+    88.88% {
       background-image: url("/public/imgs/main/231118_106.jpg");
     }
   }
