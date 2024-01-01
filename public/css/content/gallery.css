@@ -56,7 +56,8 @@
     "all-7 all-8 all-9"
     "all-10 all-11 all-12"
     "all-13 all-14 all-15"
-    "all-16 all-17 all-18";
+    "all-16 all-17 all-18"
+    "all-19 all-19 .";
 }
 
 .all.active,
@@ -139,6 +140,15 @@
 .all-17 {
   grid-area: all-17;
 }
+.all-18 {
+  grid-area: all-18;
+}
+.all-19 {
+  grid-area: all-19;
+}
+.all-20 {
+  grid-area: all-20;
+}
 
 @media (max-width: 750px) {
   .gallery-bg {
@@ -164,7 +174,8 @@
       "all-11 all-12"
       "all-13 all-14"
       "all-15 all-16"
-      "all-17 all-18";
+      "all-17 all-18"
+      "all-19 all-20";
   }
 
   .gallery-menu {
@@ -214,7 +225,9 @@
       "all-15"
       "all-16"
       "all-17"
-      "all-18";
+      "all-18"
+      "all-19"
+      "all-20";
   }
 
   .gallery-menu {
