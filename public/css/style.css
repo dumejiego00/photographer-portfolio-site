@@ -21,7 +21,7 @@
     right: 30px;
     bottom: 30px;
     background: #fff;
-    border: solid 1px #000;
+    border: solid 1px var(--cor-text);
     border-radius: 50%;
     display: none;
     justify-content: center;
@@ -33,7 +33,7 @@
     display: block;
     height: 10px;
     width: 10px;
-    border-top: 2px solid #000;
-    border-right: 2px solid #000;
+    border-top: 2px solid var(--cor-text);
+    border-right: 2px solid var(--cor-text);
     transform: translateY(20%) rotate(-45deg);
   }
