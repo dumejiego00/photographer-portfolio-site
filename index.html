@@ -56,6 +56,9 @@
     <link rel="preload" as="image" href="/public/imgs/main/231118_106.jpg" />
   </head>
   <body>
+    <button id="js-pagetop" class="pagetop">
+      <span class="pagetop__arrow"></span>
+    </button>
     <div class="bg_photo">
       <header class="header-bg">
         <div class="header container">
@@ -942,6 +945,24 @@
     <script type="module" src="/public/js/script.js"></script>
     <script src="/public/js/lightbox-plus-jquery.min.js"></script>
     <script>
+      $(function () {
+        $("#js-pagetop").click(function () {
+          $("html, body").animate(
+            {
+              scrollTop: 0,
+            },
+            300
+          );
+        });
+        $(window).scroll(function () {
+          if ($(window).scrollTop() > 1) {
+            $("#js-pagetop").fadeIn(300).css("display", "flex");
+          } else {
+            $("#js-pagetop").fadeOut(300);
+          }
+        });
+      });
+
       lightbox.option({
         resizeDuration: 100,
         showImageNumberLabel: false,
