@@ -5,7 +5,7 @@ This is a responsive one-page portfolio website template, designed to showcase c
 
 ## Demo
 
-You can view a live demo of the portfolio website by visiting the deployed version on Netlify. (Link to be added once deployed.)
+You can view a live demo of the portfolio website by visiting the deployed version on Netlify. [Netlify account]([https://www.netlify.com](https://photographer-portfolio-site.netlify.app)/)
 
 ## About the Project
 
