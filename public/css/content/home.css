@@ -1,5 +1,5 @@
 body {
-  background-color: var(--cor-back);
+  background-color: var(--cor-c12);
 }
 
 .slogan {
@@ -7,7 +7,7 @@ body {
 }
 
 .bg_photo {
-  background-image: url("/public/imgs/main/231118_2.jpg");
+  background-image: url("/public/imgs/main/desktop_bg_1.jpeg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -23,28 +23,28 @@ body {
 @keyframes animate {
   0%,
   100% {
-    background-image: url("/public/imgs/main/231118_2.jpg");
+    background-image: url("/public/imgs/main/desktop_bg_1.jpeg");
   }
   12.5% {
-    background-image: url("/public/imgs/main/cofi.jpg");
+    background-image: url("/public/imgs/main/desktop_bg_2.jpeg");
   }
   25% {
-    background-image: url("/public/imgs/main/231118_25.jpg");
+    background-image: url("/public/imgs/main/desktop_bg_3.jpeg");
   }
   37.5% {
-    background-image: url("/public/imgs/main/231118_23.jpg");
+    background-image: url("/public/imgs/main/desktop_bg_4.jpeg");
   }
   50% {
-    background-image: url("/public/imgs/main/231118_27.jpg");
+    background-image: url("/public/imgs/main/desktop_bg_5.jpeg");
   }
   62.5% {
-    background-image: url("/public/imgs/main/231118_40.jpg");
+    background-image: url("/public/imgs/main/desktop_bg_6.jpeg");
   }
   75% {
-    background-image: url("/public/imgs/main/231118_63.jpg");
+    background-image: url("/public/imgs/main/desktop_bg_7.jpeg");
   }
   87.5% {
-    background-image: url("/public/imgs/main/231118_30.jpg");
+    background-image: url("/public/imgs/main/desktop_bg_8.jpeg");
   }
 }
 
@@ -104,7 +104,7 @@ body {
 
 @media (max-width: 1050px) {
   .bg_photo {
-    background-image: url("/public/imgs/main/231118_13.jpg");
+    background-image: url("/public/imgs/main/desktop_mobile_1.jpeg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -121,31 +121,31 @@ body {
   @keyframes animate {
     0%,
     100% {
-      background-image: url("/public/imgs/main/231118_13.jpg");
+      background-image: url("/public/imgs/main/desktop_mobile_1.jpeg");
     }
     11.11% {
-      background-image: url("/public/imgs/main/231118_44.jpg");
+      background-image: url("/public/imgs/main/desktop_mobile_2.jpeg");
     }
     22.22% {
-      background-image: url("/public/imgs/main/231118_45.jpg");
+      background-image: url("/public/imgs/main/desktop_mobile_3.jpeg");
     }
     33.33% {
-      background-image: url("/public/imgs/main/231118_55.jpg");
+      background-image: url("/public/imgs/main/desktop_mobile_4.jpeg");
     }
     44.44% {
-      background-image: url("/public/imgs/main/231118_29.jpg");
+      background-image: url("/public/imgs/main/desktop_mobile_5.jpeg");
     }
     55.55% {
-      background-image: url("/public/imgs/main/231118_98.jpg");
+      background-image: url("/public/imgs/main/desktop_mobile_6.jpeg");
     }
     66.66% {
-      background-image: url("/public/imgs/main/231118_81.jpg");
+      background-image: url("/public/imgs/main/desktop_mobile_7.jpeg");
     }
     77.77% {
-      background-image: url("/public/imgs/main/231118_85.jpg");
+      background-image: url("/public/imgs/main/desktop_mobile_8.jpeg");
     }
     88.88% {
-      background-image: url("/public/imgs/main/231118_106.jpg");
+      background-image: url("/public/imgs/main/desktop_mobile_9.jpeg");
     }
   }
 }

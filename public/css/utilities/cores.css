@@ -17,19 +17,19 @@
     --cor-c15: #000000; 
     --cor-text:#353535;
     --cor-back:var(--cor-w);
-    --cor-button:var(--cor-text);
+    --cor-button:var(--cor-c9);
     --cor-text2:var(--cor-text);
     --cor-contactText:var(--cor-text)
 }
 
 .cor-text{
-    color:var(--cor-text);
+    color:var(--cor-w);
 }
 .cor-text2{
-    color:var(--cor-text2);
+    color:var(--cor-w);
 }
 .cor-contactText{
-    color:var(--cor-contactText)
+    color:var(--cor-w)
 }
 
 .cor-w {

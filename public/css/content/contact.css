@@ -5,7 +5,7 @@
   background: url("/public/imgs/general/231118_7.jpg");
   background-position: center;
   background-size: cover;
-  box-shadow: inset 0 80px var(--cor-back), inset 0 -80px var(--cor-back);
+  box-shadow: inset 0 80px var(--cor-c13), inset 0 -80px var(--cor-c13);
 }
 
 .contact {
@@ -107,7 +107,7 @@
   justify-content: center;
 }
 
-.buttom-2 {
+.button-2 {
   padding: 16px 32px;
   background-color: var(--cor-button);
   border-radius: 16px;
@@ -117,7 +117,7 @@
   cursor: pointer;
 }
 
-.buttom-2:hover {
+.button-2:hover {
   background-color: var(--cor-c12);
 }
 
