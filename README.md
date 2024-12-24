@@ -15,8 +15,6 @@ This is a one-page, responsive portfolio website that highlights a variety of cr
 - **Gallery**: A photo gallery to showcase different categories of work (e.g., Portrait, Views, Food, Modeling).
 - **Contact Form**: A form that users can fill out to send a message (with Netlify integration for form handling).
 
-This project was developed as part of a personal learning experience, and now it is being shared publicly to help others who want to create a similar portfolio website.
-
 ## Key Features
 
 - **Responsive Design**: The site adapts to various screen sizes, from desktop to mobile.
@@ -72,7 +70,7 @@ Steps to configure the form on Netlify:
 1. Sign up for a [Netlify account](https://www.netlify.com/).
 2. Link your GitHub repository to Netlify.
 3. Ensure that the form tag includes the `netlify` attribute (e.g., `data-netlify="true"` or `netlify`).
-4. Set up a success page (e.g., `/confirm.html`) or a redirect after form submission.
+4. Set up a success page (e.g., `confirm.html`) or a redirect after form submission.
 5. Configure your project to handle form submissions directly from the Netlify dashboard.
 
 Netlify documentation for forms can be found [here](https://www.netlify.com/docs/form-handling/).
