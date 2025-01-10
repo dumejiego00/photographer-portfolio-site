@@ -1,4 +1,3 @@
-
 # Portfolio Website
 
 This is a responsive one-page portfolio website template, designed to showcase creative work, such as photography, design, or other creative services. The website includes sections for a biography, portfolio gallery, and a contact form.
@@ -74,3 +73,13 @@ Steps to configure the form on Netlify:
 5. Configure your project to handle form submissions directly from the Netlify dashboard.
 
 Netlify documentation for forms can be found [here](https://www.netlify.com/docs/form-handling/).
+
+### Image Optimization
+
+**Note:** This project uses **Cloudinary's automatic image optimization** through the **Netlify plugin** to deliver high-quality images in modern formats with faster loading speeds.
+
+If you're **not deploying this site on Netlify**, this optimization won't be applied. For the best performance, consider implementing your own image optimization method to ensure fast loading times for high-quality photos.
+
+Learn more about these services here:
+- [Cloudinary](https://cloudinary.com/)
+- [Integrating Cloudinary with Netlify](https://cloudinary.com/guides/front-end-development/integrating-cloudinary-with-netlify)
