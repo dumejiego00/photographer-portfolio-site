@@ -45,7 +45,7 @@ This is a one-page, responsive portfolio website that highlights a variety of cr
 
 1. **Clone the repository**:
    ```bash
-   git clone https://github.com/yourusername/photographer-portfolio-site.git
+   git clone git@github.com:yourusername/photographer-portfolio-site.git
    ```
 
 2. **Navigate to the project folder**:
